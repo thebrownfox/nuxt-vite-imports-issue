@@ -11,10 +11,10 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Official Nuxt.js starter for CodeSandBox"
-      }
+        content: "Official Nuxt.js starter for CodeSandBox",
+      },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
   components: true,
   buildModules: ["nuxt-vite"],
@@ -23,7 +23,7 @@ export default {
    ** Nuxt.js modules
    ** Doc: https://modules.nuxtjs.org
    */
-  modules: [["nuxt-i18n", {}]],
+  modules: [],
 
   /*
    ** Global CSS
@@ -35,5 +35,5 @@ export default {
    ** Plugins to load before mounting the App
    ** Doc: https://nuxtjs.org/docs/2.x/directory-structure/plugins
    */
-  plugins: []
+  plugins: [],
 };

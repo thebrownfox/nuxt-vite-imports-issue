@@ -15,8 +15,11 @@ import { nanoid } from "nanoid";
 export default {
   data() {
     return {
-      id: nanoid(8),
+      id: "no uuid",
     };
+  },
+  mounted() {
+    this.id = nanoid(8);
   },
 };
 </script>
@@ -33,7 +36,7 @@ h1 {
   font-weight: 400;
 }
 .name {
-  color: #00C48D;
+  color: #00c48d;
 }
 p {
   margin-top: 20px;
